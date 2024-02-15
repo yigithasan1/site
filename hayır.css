@@ -34,8 +34,7 @@ body {
 }
 
 .next button {
-    background-color: rgb(157, 0, 255);
-    ;
+    background-color: silver;
     border-radius: 30px;
     color: white;
     padding: 14px 20px;
