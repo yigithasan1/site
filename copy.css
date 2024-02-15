@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url() ;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+
+}
+
+#yesBtn{
+    border: navy;
+
+    background-color: silver;
+
+    color: black;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+    border-radius: 14px
+
+}
+
+#noBtn{
+    border: navy;
+
+    background-color: silver;
+
+    color: black;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+    border-radius: 14px
+    
+}
+
+#yesBtn:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+#noBtn:hover{
+    background-color: brown;
+    color: white
+}
+
+#content {
+    margin-top: 20px;
+    display: none;
+}
+
+#eiffel {
+    max-width: 200px;
+    margin-top: 20px;
+    display: none;
+}
